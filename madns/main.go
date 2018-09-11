@@ -6,14 +6,14 @@ import (
 	"os"
 	"strings"
 
-	ma "github.com/multiformats/go-multiaddr"
-	madns "github.com/multiformats/go-multiaddr-dns"
+	ma "github.com/dms3-mft/go-multiaddr"
+	madns "github.com/dms3-mft/go-multiaddr-dns"
 )
 
 func main() {
 	if len(os.Args) != 2 {
 		fmt.Print("usage: madns /dnsaddr/example.com\n" +
-			"       madns /dnsaddr/example.com/ipfs/Qmfoobar\n" +
+			"       madns /dnsaddr/example.com/dms3fs/Qmfoobar\n" +
 			"       madns /dns6/example.com\n" +
 			"       madns /dns6/example.com/tcp/443/wss\n" +
 			"       madns /dns4/example.com\n")

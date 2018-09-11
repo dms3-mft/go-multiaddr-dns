@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	ma "github.com/multiformats/go-multiaddr"
+	ma "github.com/dms3-mft/go-multiaddr"
 )
 
 var ResolvableProtocols = []ma.Protocol{DnsaddrProtocol, Dns4Protocol, Dns6Protocol}
